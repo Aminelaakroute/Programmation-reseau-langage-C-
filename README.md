@@ -18,7 +18,7 @@
    with both "tcp" and "udp" protocols. The affiche_service function attempts to retrieve service information
    using either the service name or port number, and if found, it prints details such as the service name,
    aliases, and port number. If no information is found, it prints a message indicating that the service is unknown.
-   based on their name or port number. It might be similar to `list_services.c` or `list_services-secure.c`.
+   based on their name or port number.
 
 5. **list_services-secure.c**:
    - Role: This code lists network services listed in the `/etc/services` file securely using `getservent_r()`.
